@@ -15,7 +15,7 @@ body {
 .kinetic {
   position: relative;
   height: 80px;
-  width: 89px;
+  width: 80px;
 }
 
 .kinetic::after,
@@ -24,8 +24,8 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-  width: 0;
-  height: 0;
+  width: 0px;
+  height: 0px;
   border: 50px solid transparent;
   border-bottom-color: #fff;
   animation: rotateA 2s linear infinite 0.5s;
@@ -33,7 +33,7 @@ body {
 
 .kinetic::before {
   transform: rotate(90deg);
-  animation: rotateB 2s linear infinite 0s;
+  animation: rotateB 2s linear infinite;
 }
 
 @keyframes rotateA {
